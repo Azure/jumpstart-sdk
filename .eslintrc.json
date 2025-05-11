@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended" // If you use TypeScript
+  ],
+  "parser": "@typescript-eslint/parser", // If you use TypeScript
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint" // If you use TypeScript
+  ],
+  "rules": {
+    // You can add or override rules here. For example:
+    // "semi": ["error", "always"],
+    // "quotes": ["error", "double"]
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "dist/",
+    "build/"
+    // Add other files or directories to ignore
+  ]
+}

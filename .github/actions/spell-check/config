@@ -25,7 +25,31 @@
     "ansible",
     "aks",
     "azurearc",
-    "copilot"
+    "copilot",
+    // Add project-specific and technical terms here
+    "Jumpstart",
+    "Automator",
+    "MSRC",
+    "msrc",
+    "onboardsupport",
+    "colorama",
+    "icanhazip",
+    "Projeckt", // Example: if "Projeckt" was intentional, add it. Otherwise, fix it in the source file.
+    "Tytle",    // Same as above
+    "repositiry",
+    "contians",
+    "simpple",
+    "demnstration",
+    "spellchek",
+    "cspeel",
+    "revuedog",
+    "Instllation",
+    "intall",
+    "depandencies",
+    "innstalle",
+    "enojyable",
+    "unresolve"
+    // Add other words from the cspell output that are not typos
   ],
   "files": [
     "**/*.md",

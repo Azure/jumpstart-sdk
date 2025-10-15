@@ -23,10 +23,6 @@ function Set-NICs {
             # Rename non-storage adapters
             Get-NetAdapter ((Get-NetAdapterAdvancedProperty | Where-Object {$_.DisplayValue -eq "SDN"}).Name) | Rename-NetAdapter -NewName FABRIC -PassThru | Select-Object Name,PSComputerName
 
-             # Configue WinRM
-            Write-Host "Configuring Windows Remote Management in $env:COMPUTERNAME"
-            Set-Item WSMan:\localhost\Client\TrustedHosts * -Confirm:$false -Force
-
         }
     }
 }

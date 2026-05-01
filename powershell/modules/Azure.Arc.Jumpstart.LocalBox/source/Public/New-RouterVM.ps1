@@ -7,7 +7,7 @@ function New-RouterVM {
     Invoke-Command -VMName $LocalBoxConfig.MgmtHostConfig.Hostname -Credential $localCred -ScriptBlock {
         $LocalBoxConfig = $using:LocalBoxConfig
         $localCred = $using:localcred
-        $ParentDiskPath = "C:\VMs\Base\AzL-node.vhdx"
+        $ParentDiskPath = "C:\VMs\Base\GUI.vhdx"
         $vmpath = "D:\VMs\"
         $VMName = $LocalBoxConfig.BGPRouterName
 
